@@ -3,12 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="./css/styles.css">
-    <title>Learn Vue js in 5 minutes | Lesson 2</title>
+    <title>Learn Vue js in 5 minutes | Lesson 3</title>
 </head>
 <body>
     <div id="app">
-        <h1>{{ title }}</h1>
-        <input type="text" v-model="title">
+        <h1>{{ link }}</h1>
+        <input type="text" v-model="link">
+
+        <a :href="link" target="_blank">Dynamic Link</a>
+
+        <img :src="imgUrl + link + '.jpg'" alt="">
     </div>
 
 

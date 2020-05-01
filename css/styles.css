@@ -37,3 +37,7 @@ body{
     letter-spacing: .5px;
     margin: .5rem 0;
 }
+
+#app img{
+    width: 200px;
+}
